@@ -5,7 +5,7 @@ spring:
   application:
     name: INVENTORY-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/inventory_db
+    url: jdbc:mysql://127.0.0.1:3306/?user=root
     username: root
     password: 06042002
   jpa:
