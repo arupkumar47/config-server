@@ -4,5 +4,20 @@ server:
 spring:
   application:
     name: INVENTORY-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/inventory_db
+    username: root
+    password: 06042002
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
 
 message: Inventory Service Configuration
+
+
