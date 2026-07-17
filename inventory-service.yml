@@ -6,7 +6,7 @@ spring:
     name: inventory-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/inventory_db
+    url: jdbc:mysql://localhost:3306/inventory
     username: root
     password: 06042002
     driver-class-name: com.mysql.cj.jdbc.Driver
